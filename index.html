@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="globalstyles.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>YOLLI CONSULTORIA</title>
+    <script src="/index.js"></script>
 </head>
 
 <body>
@@ -110,7 +112,7 @@
             <h3>
                 Chromebook
             </h3>
-            <div >
+            <div>
                 <img src="./img/Choromebook/Chromebook_Samsung_1-removebg-preview.png" alt="">
                 <!-- <img src="./img/Choromebook/Chromebook Samsung 2.jpg" alt="">
                 <img src="./img/Choromebook/Chromebook Samsung 3.jpg" alt=""> -->
@@ -139,6 +141,53 @@
             </div>
             <button>Baixar Configurações</button>
         </section>
+    </div>
+
+    <div>
+        <div class="header_form">
+            <h2>
+                Para mais informações inscreva-se!
+            </h2>
+            <button id="openModalButton">Inscreva-se</button>
+        </div>
+        <div id="myModal" class="modal">
+            <form id="myForm" action="URL_DO_SEU_FORMS" method="POST">
+                <div  class="form_conteudo">
+                    <div class="form_close">
+                        <h4>Preencha os dados necessários:</h4>
+                        <button id="closeModalButton">x</button>
+                    </div>
+
+                    <div class="form">
+                        <label for="telefone">Número de Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="responsavel">Nome do Responsável:</label>
+                        <input type="text" id="responsavel" name="responsavel" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="aluno">Nome do Aluno:</label>
+                        <input type="text" id="aluno" name="aluno" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="escola">Nome da Escola:</label>
+                        <input type="text" id="escola" name="escola" required>
+                    </div>
+                    <button class="button_submit" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     </div>
 
 </body>
