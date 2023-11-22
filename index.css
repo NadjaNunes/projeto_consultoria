@@ -1,10 +1,16 @@
 header {
-    background-color: #004aad;
+    background-color: #4a403d;
     width: 100%;
     color: #fff;
     display: flex;
+}
+
+header>div {
+    margin: 10px 100px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 h1 {
@@ -17,19 +23,23 @@ h1 {
     margin: auto;
     padding: 20px;
     margin-top: 100px;
+    color: #4a403d;
 }
 
-.div_text>p {
-    font-size: 60px;
+.div_text {
+    font-size: 20px;
+    color: #fff;
 }
 
 .div_text>section {
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding: 20px;
+    height: 220px;
     background-color: #f0f0f0;
     margin-top: 10px;
-    background-color: rgb(228, 131, 131);
+    background-color: #ea804c;
+    border-radius: 20px;
 }
 
 .div_text {
@@ -40,21 +50,45 @@ h1 {
 
 /* div 2 */
 
-.div_img{
+.div_img {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
-img{
-    width: 34.375rem;
+.div_img>h2 {
+    font-size: 50px;
+    color: #4a403d;
 }
 
-.section_product{
+img {
+    width: 40.375rem;
+}
+
+.section_product {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+button {
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: #ea804c;
+    color: #ffffff;
+    border: none;
+    margin-top: 5%;
+}
+
+button:hover {
+    background-color: #f7c4aa;
+}
+
+h3 {
+    color: #fff1c1;
+    font-size: 2.5rem;
 }
