@@ -87,9 +87,21 @@ button {
     background-color: #ea804c;
     color: #ffffff;
     border: none;
-    margin-top: 5%;
-    margin-top: 5%;
-    
+    align-items: center; 
+
+}
+
+.section_product > a {
+    height: 40px;
+    width: 12.5rem;
+    border-radius: 10px;
+    background-color: #ea804c;
+    color: #ffffff;
+    border: none;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 button:hover {

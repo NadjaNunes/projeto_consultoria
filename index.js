@@ -15,12 +15,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    var form = document.getElementById('myForm');
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-       console.log('Dados do formulário:', new FormData(form));
-    });
-});
